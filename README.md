@@ -132,7 +132,3 @@ The app is a static site: do not select a Python, Node, or other server build un
 - **Layout and theme:** edit `style.css`.
 - **Application identity:** update the title, header, metadata, and footer in `index.html`.
 - **Task-specific outputs:** the UI currently presents detection boxes and classification top predictions. Extend `updateDetections()` for additional task-specific UI such as segmentation masks, pose keypoints, OBB, semantic segmentation, or depth output.
-
-## Licensing
-
-The starter UI and application code do not impose a license on your project. Choose and add a license appropriate to your repository before publishing. The browser inference package, YOLO26 model weights, and any downloaded model mirror have their own licensing terms; review those terms separately. Ultralytics states that its trained YOLO models are AGPL-3.0 by default and offers an Enterprise license for specified use cases. This README is not legal advice.
