@@ -1,9 +1,8 @@
 <div align="center">
 
-# YOLO26 Studio
+# Tomato leaf health detector
 
-**A browser-based YOLO26 development starter — build, test, and share computer-vision projects.**
-
+**A system that detects the health of tomato plants via their leaves.**
 
 <p>
   <img alt="YOLO26" src="https://img.shields.io/badge/YOLO26-Computer%20Vision-111827?style=flat-square">
@@ -31,13 +30,9 @@
 
 ---
 
-## What is YOLO26 Studio?
+## What is this application for?
 
-YOLO26 Studio is a starter project for learning and building browser-based computer-vision applications with **Ultralytics YOLO26**. It provides a ready-to-customize interface, an ONNX model loading workflow, webcam inference, and image testing.
-
-Inference runs in the visitor's browser. This project does not require a Python server, an API endpoint, or a dedicated inference backend. The browser downloads the model and runtime assets, then processes the selected camera frames or images locally.
-
-> **Who is this for?** Students, educators, and developers who want a practical starting point for experimenting with object detection and extending it into their own computer-vision projects.
+It helps in assessing the health of tomato plants by analyzing their leaves and provides recommendations. You can do this either by taking a photo directly or by uploading an image.
 
 ## Technology stack
 
@@ -55,12 +50,9 @@ Inference runs in the visitor's browser. This project does not require a Python 
 
 | Feature | Description |
 |---|---|
-| Webcam inference | Run predictions on a live camera stream |
 | Camera selection | Choose the front or back camera on supported devices |
 | Image testing | Select an image from your device and run one prediction |
-| ONNX model picker | Load a different `.onnx` file for the current browser session |
 | Confidence threshold | Adjust the minimum confidence used for predictions |
-| Visual annotations | Draw bounding boxes, class names, and confidence scores |
 | Detection panel | Review detected classes and their confidence values |
 | Performance indicators | Show inference time and approximate live FPS |
 | Responsive interface | Adapt the workspace to desktop, tablet, and mobile screens |
