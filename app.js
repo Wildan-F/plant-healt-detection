@@ -7,10 +7,10 @@ import { YOLO, annotate } from "@ultralytics/yolo";
  * project site (including repositories served below /<repository-name>/).
  */
 const CONFIG = Object.freeze({
-  defaultModelPath: "models/yolo26n.onnx",
-  defaultConfidence: 0.25,
+  defaultModelPath: "models/yolo26n.onnx", // Ganti jadi "models/best (3).onnx"
+  defaultConfidence: 0.25, // Ganti jadi 0.5
   annotation: {
-    lineWidth: 3,
+    lineWidth: 3, ganti jadi 2
     font: "600 14px Manrope, sans-serif",
     labels: true,
     keypoints: true,
